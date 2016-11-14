@@ -1,0 +1,19 @@
+{
+    "name": "torfs-ict/cmsms-twig",
+    "description": "Twig addon for CMS Made Simple",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristof Torfs",
+            "email": "kristof@torfs.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "CMSMS\\Twig\\" : "src/" }
+    },
+    "require": {
+        "torfs-ict/cmsms": "^2.1",
+        "twig/twig": "^1.0"
+    }
+}
